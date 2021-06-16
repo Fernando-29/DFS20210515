@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea Fernando </title>
+    <link rel="icon" type="image/png" href="ico.ico.png">
+</head>
+<body>
+    <script>
+
+var option =  prompt('Qué quieres hacer? \n 1) Ingresa calif \n 2)Salir'); 
+var num1= parseInt(prompt('Ingresa tu calificación')); 
+var  cal="";
+
+var resultado; 
+    option = parseInt(option);   
+     switch(option){
+        case 1 : calif (num1);
+        break; 
+        case 2: Salir ();
+        break;
+    }
+    function calif(num1){
+    if(num1 <= 6){
+            cal = "Reprobado"; 
+            alert(cal);  
+        }
+     if (num1 >= 9){
+         cal= "Beca"
+         alert (cal);
+     }
+        else{
+            cal = "Aprobado"
+            alert(cal);
+        }  
+    }
+    function Salir() {
+    }
+
+    </script>
+</body>
+</html>
